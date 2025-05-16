@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import { RouterOutlet } from '@angular/router';// Ruteo
+import { RouterLink } from "@angular/router";
 
 @Component({
   selector: 'app-root',
@@ -8,5 +9,5 @@ import { RouterOutlet } from '@angular/router';
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'EcoChallenge';
+  title = 'Nivel3';
 }
